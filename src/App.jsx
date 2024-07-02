@@ -22,7 +22,7 @@ const App = () => {
           <AddButton setNumber={setNumber} />
         </>
       ) : (
-        <p>Limit Reached!</p>
+        <h2>Limit Reached!</h2>
       )}
       <ResetButton setNumber={setNumber} />
     </div>
