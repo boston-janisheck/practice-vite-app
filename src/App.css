@@ -25,15 +25,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
-  flexdirection: column;
+  padding: 0rem;
 }
 
 /* Style for the navbar title */
 .navbar-title {
   text-align: center;
   flex-grow: 1;
-  font-size: 2rem;
+  font-size: 3.5rem;
   font-weight: bold;
 }
 
@@ -41,19 +40,10 @@ nav {
 .navbar-menu {
   display: flex;
   list-style: none;
-  padding: 0;
+  padding: 0 0 4rem 0;
   margin: 0;
   align-items: center;
-}
-
-/* Align the left menu to the left */
-.navbar-menu-left {
-  justify-content: flex-start;
-}
-
-/* Align the right menu to the right */
-.navbar-menu-right {
-  justify-content: flex-end;
+  /* box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.2); */
 }
 
 /* Style for the links */
@@ -66,4 +56,16 @@ nav {
 
 .navbar-menu a:hover {
   text-decoration: underline;
+}
+
+/* Make all img tags in the navbar the same size */
+.navbar-menu img {
+  width: 35px;
+  height: 35px;
+}
+
+/* Animate hovering over the image links */
+.navbar-menu img:hover {
+  transform: scale(1.15);
+  transition: transform 0.2s;
 }
