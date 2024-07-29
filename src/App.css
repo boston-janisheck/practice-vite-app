@@ -18,3 +18,52 @@
   background-color: #000;
   color: #fff;
 }
+
+// Navbar Styling
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  flexdirection: column;
+}
+
+/* Style for the navbar title */
+.navbar-title {
+  text-align: center;
+  flex-grow: 1;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Ensure the navbar menus are flex containers */
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+/* Align the left menu to the left */
+.navbar-menu-left {
+  justify-content: flex-start;
+}
+
+/* Align the right menu to the right */
+.navbar-menu-right {
+  justify-content: flex-end;
+}
+
+/* Style for the links */
+.navbar-menu a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0 1rem;
+}
+
+.navbar-menu a:hover {
+  text-decoration: underline;
+}
