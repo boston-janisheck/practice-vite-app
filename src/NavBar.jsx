@@ -6,23 +6,35 @@ const NavBar = () => {
     <nav>
       <ul className="navbar-menu">
         <li>
-          <a href="https://www.linkedin.com/in/boston-janisheck/">
+          <a
+            href="https://www.linkedin.com/in/boston-janisheck/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="src/assets/linkedin.png" alt="LinkedIn" />
           </a>
         </li>
         <li>
-          <a href="https://github.com/boston-janisheck">
+          <a
+            href="https://github.com/boston-janisheck"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="src/assets/github.png" alt="GitHub" />
           </a>
         </li>
         <div className="navbar-title">Fancy Counter</div>
         <li>
-          <a href="mailto:bostonjanisheck@gmail.com">
+          <a
+            href="mailto:bostonjanisheck@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="src/assets/email.png" alt="Email" />
           </a>
         </li>
         <li>
-          <a href="/website">
+          <a href="/website" target="_blank" rel="noopener noreferrer">
             <img src="src/assets/web.png" alt="Personal Website Placeholder" />
           </a>
         </li>

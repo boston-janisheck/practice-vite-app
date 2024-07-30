@@ -2,15 +2,13 @@ import { useEffect } from "react";
 import "./App.css";
 
 const Count = ({ number }) => {
-  const Limit = () => number === null;
-
   useEffect(() => {
     document.title = `Counter: ${number}`;
   }, [number]);
 
   return (
     <>
-      <span
+      <div
         style={{
           fontSize: "4rem",
           fontWeight: "bold",
@@ -18,8 +16,7 @@ const Count = ({ number }) => {
         }}
       >
         {number}
-        {Limit() ? "Limit Reached!" : " "}
-      </span>
+      </div>
     </>
   );
 };
