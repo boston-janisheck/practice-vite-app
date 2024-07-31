@@ -20,7 +20,7 @@ const App = () => {
       >
         {number < 5 ? (
           <>
-            <Count number={number} setNumber={setNumber} />
+            <Count number={number} />
             <AddButton setNumber={setNumber} />
           </>
         ) : (

@@ -34,7 +34,7 @@ const NavBar = () => {
           </a>
         </li>
         <li>
-          <a href="/website" target="_blank" rel="noopener noreferrer">
+          <a href="/website">
             <img src="src/assets/web.png" alt="Personal Website Placeholder" />
           </a>
         </li>

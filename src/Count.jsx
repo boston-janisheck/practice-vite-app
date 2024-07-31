@@ -3,7 +3,14 @@ import "./App.css";
 
 const Count = ({ number }) => {
   useEffect(() => {
-    document.title = `Counter: ${number}`;
+    {
+      number >= 5
+        ? (document.title = "Limit Reached!")
+        : (document.title = `Counter: ${number}`);
+    }
+    return () => {
+      document.title = "Limit Reached!";
+    };
   }, [number]);
 
   return (
